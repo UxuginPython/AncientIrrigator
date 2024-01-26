@@ -198,7 +198,7 @@ while True:
     for x in range(16):
         for y in range(16):
             if land_state[x][y]==LandState.YOUNG:
-                if random.randrange(1000)==83:
+                if random.randrange(1000)==391:
                     land_state[x][y]=LandState.GROWN
     update_water()
     for x, column in enumerate(tiles):
